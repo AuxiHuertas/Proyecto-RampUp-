@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    background: lightskyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.instruccion {
+    text-align: left;
+    color: aqua;
+}
+
+.BottonsUsers {
+    background-color: lightgrey;
+    height: 60px;
+    width: 70px;
+}
+
+.BottonsPlay {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+
+
+}
+
+.piedra {
+    background-image: url(Piedra.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.papel {
+    background-image: url(Papel.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.tijera {
+    background-image: url(Tijeras.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.lagarto {
+    background-image: url(Lagarto.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.spock {
+    background-image: url(Spock.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
