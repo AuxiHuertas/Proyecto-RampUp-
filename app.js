@@ -79,11 +79,11 @@ function selectOption() {
     piedra.addEventListener("click", function () {
         // Hemos dado valor a la variable estadoImagenUsuario para el botón piedra, al igual en el resto de botones
         estadoImagenUsuario = "Piedra";
-        piedra.style.backgroundColor = "#F9F871"
-        papel.style.backgroundColor = "lightblue"
-        tijera.style.backgroundColor = "lightblue"
-        lagarto.style.backgroundColor = "lightblue"
-        spock.style.backgroundColor = "lightblue"
+        piedra.style.backgroundColor = "#f9f97182"
+        papel.style.backgroundColor = "#69727984"
+        tijera.style.backgroundColor = "#69727984"
+        lagarto.style.backgroundColor = "#69727984"
+        spock.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
 
@@ -93,11 +93,11 @@ function selectOption() {
     const papel = document.getElementById("papel")
     papel.addEventListener("click", function () {
         estadoImagenUsuario = "Papel";
-        papel.style.backgroundColor = "#F9F871"
-        piedra.style.backgroundColor = "lightblue"
-        tijera.style.backgroundColor = "lightblue"
-        lagarto.style.backgroundColor = "lightblue"
-        spock.style.backgroundColor = "lightblue"
+        papel.style.backgroundColor = "#f9f97182"
+        piedra.style.backgroundColor = "#69727984"
+        tijera.style.backgroundColor = "#69727984"
+        lagarto.style.backgroundColor = "#69727984"
+        spock.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
 
@@ -106,11 +106,11 @@ function selectOption() {
     const tijera = document.getElementById("tijera")
     tijera.addEventListener("click", function () {
         estadoImagenUsuario = "Tijeras"
-        tijera.style.backgroundColor = "#F9F871"
-        papel.style.backgroundColor = "lightblue"
-        piedra.style.backgroundColor = "lightblue"
-        lagarto.style.backgroundColor = "lightblue"
-        spock.style.backgroundColor = "lightblue"
+        tijera.style.backgroundColor = "#f9f97182"
+        papel.style.backgroundColor = "#69727984"
+        piedra.style.backgroundColor = "#69727984"
+        lagarto.style.backgroundColor = "#69727984"
+        spock.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
 
@@ -118,11 +118,11 @@ function selectOption() {
     const lagarto = document.getElementById("lagarto")
     lagarto.addEventListener("click", function () {
         estadoImagenUsuario = "Lagarto"
-        lagarto.style.backgroundColor = "#F9F871"
-        papel.style.backgroundColor = "lightblue"
-        piedra.style.backgroundColor = "lightblue"
-        tijera.style.backgroundColor = "lightblue"
-        spock.style.backgroundColor = "lightblue"
+        lagarto.style.backgroundColor = "#f9f97182"
+        papel.style.backgroundColor = "#69727984"
+        piedra.style.backgroundColor = "#69727984"
+        tijera.style.backgroundColor = "#69727984"
+        spock.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
 
@@ -130,11 +130,11 @@ function selectOption() {
     const spock = document.getElementById("spock")
     spock.addEventListener("click", function () {
         estadoImagenUsuario = "Spock";
-        spock.style.backgroundColor = "#F9F871"
-        lagarto.style.backgroundColor = "lightblue"
-        tijera.style.backgroundColor = "lightblue"
-        papel.style.backgroundColor = "lightblue"
-        piedra.style.backgroundColor = "lightblue"
+        spock.style.backgroundColor = "#f9f97182"
+        lagarto.style.backgroundColor = "#69727984"
+        tijera.style.backgroundColor = "#69727984"
+        papel.style.backgroundColor = "#69727984"
+        piedra.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
     })

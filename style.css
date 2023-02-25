@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 700px;
-    background-image: linear-gradient(to left bottom, #3f616d, #54808b, #6ba0aa, #82c1c9, #9ce4e7);
+    background-image: linear-gradient(to right top, #eca65a, #ecae68, #edb676, #edbe84, #eec693);
 }
 
 * {
@@ -28,16 +28,19 @@ h1,h2{
     align-content: flex-end;
 
 }
+a{
+    text-decoration: none;
+}
 .bottonGo{
-    background-image: linear-gradient(to right top, #59ebf0, #00d7fa, #00c0ff, #00a7ff, #4d89f5);
+    background-image: linear-gradient(to right top, #eca65a, #ecae68, #edb676, #edbe84, #eec693);
     background-position: 50% 50%;
-    font-size: large;
-    height: 50px;
-    width: 50px;
+    font-size: x-large;
+    height: 60px;
+    width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #224C5A;
+    border: 4px solid #f08102;
     border-radius: 50%;
     text-align: center;
 }
@@ -59,11 +62,12 @@ button{
     align-items: flex-end;
     justify-content: center;
     align-content: flex-end;
+    gap: 30px;
 }
 
 .piedra {
     background-image: url(imagenes/Piedra.png);
-    background-color:  #697279;
+    background-color:  #69727984;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
@@ -73,12 +77,12 @@ button{
     align-items: flex-end;
     border: 1px solid #224C5A;
     border-radius: 50%;
-
-}
+    
+} 
 
 .papel {
     background-image: url(imagenes/Papel.png);
-    background-color:  #697279;
+    background-color:  #69727984;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
@@ -92,7 +96,7 @@ button{
 
 .tijera {
     background-image: url(imagenes/Tijeras.png);
-    background-color:  #697279;
+    background-color:  #69727984;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
@@ -106,7 +110,7 @@ button{
 
 .lagarto {
     background-image: url(imagenes/Lagarto.png);
-    background-color:  #697279;
+    background-color:  #69727984;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
@@ -120,7 +124,7 @@ button{
 
 .spock {
     background-image: url(imagenes/Spock.png);
-    background-color: #697279;
+    background-color: #69727984;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
