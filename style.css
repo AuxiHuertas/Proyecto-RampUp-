@@ -38,32 +38,30 @@ h1,h2{
 button{
     text-align: justify;
 }*/
-
-.BottonsUsers {
-    background-color: lightgrey;
-    height: 60px;
-    width: 70px;
- 
+.imagenOpcionPC{
+    display: flex ;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: flex-end;
 }
 
+
 .BottonsPlay {
-    display: flex;
-    justify-content: center;
+    display: flex ;
     align-items: flex-end;
+    justify-content: center;
     align-content: flex-end;
-
-
 }
 
 .piedra {
     background-image: url(imagenes/Piedra.png);
-    background-color: #FFFF92;
+    background-color:  #697279;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
     width: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-end;
     border: 1px solid #224C5A;
     border-radius: 50%;
@@ -72,6 +70,7 @@ button{
 
 .papel {
     background-image: url(imagenes/Papel.png);
+    background-color:  #697279;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
@@ -85,6 +84,7 @@ button{
 
 .tijera {
     background-image: url(imagenes/Tijeras.png);
+    background-color:  #697279;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
@@ -98,6 +98,7 @@ button{
 
 .lagarto {
     background-image: url(imagenes/Lagarto.png);
+    background-color:  #697279;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
@@ -111,6 +112,7 @@ button{
 
 .spock {
     background-image: url(imagenes/Spock.png);
+    background-color: #697279;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100px;
