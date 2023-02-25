@@ -21,23 +21,31 @@ h1,h2{
     margin: auto;
     display: block;    
 }
+#containerGo{
+    display: flex ;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: flex-end;
 
-/*.Botton{
-    background-color: #FFFF92;
+}
+.bottonGo{
+    background-image: linear-gradient(to right top, #59ebf0, #00d7fa, #00c0ff, #00a7ff, #4d89f5);
     background-position: 50% 50%;
+    font-size: large;
     height: 50px;
     width: 50px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #224C5A;
     border-radius: 50%;
-    text-align: justify;
+    text-align: center;
 }
 
 button{
     text-align: justify;
-}*/
+}
+
 #imagenOpcionPC{
     display: flex ;
     align-items: flex-end;
