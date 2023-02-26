@@ -26,8 +26,15 @@ h1,h2{
     align-items: flex-end;
     justify-content: center;
     align-content: flex-end;
+}
+#containerExit{
+    display: flex ;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: flex-end;
 
 }
+
 a{
     text-decoration: none;
 }
@@ -36,12 +43,26 @@ a{
     background-position: 50% 50%;
     font-size: x-large;
     height: 60px;
-    width: 60px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 4px solid #f08102;
-    border-radius: 50%;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.botonAtras{
+    background-image: linear-gradient(to right top, #eca65a, #ecae68, #edb676, #edbe84, #eec693);
+    background-position: 50% 50%;
+    font-size: small;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 4px solid #60492e;
+    border-radius: 10%;
     text-align: center;
 }
 
@@ -54,6 +75,16 @@ button{
     align-items: flex-end;
     justify-content: center;
     align-content: flex-end;
+}
+#contenedorMensajes{
+    font-size: 20px;
+    font-weight:bold;
+    color: black;
+    display: flex ;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: flex-end;
+
 }
 
 
@@ -77,6 +108,11 @@ button{
     align-items: flex-end;
     border: 1px solid #224C5A;
     border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 32px;
+    
+    
     
 } 
 
@@ -92,6 +128,9 @@ button{
     align-items: flex-end;
     border: 1px solid #224C5A;
     border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 32px
 }
 
 .tijera {
@@ -106,6 +145,9 @@ button{
     align-items: flex-end;
     border: 1px solid #224C5A;
     border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 32px
 }
 
 .lagarto {
@@ -120,6 +162,9 @@ button{
     align-items: flex-end;
     border: 1px solid #224C5A;
     border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 32px
 }
 
 .spock {
@@ -134,4 +179,8 @@ button{
     align-items: flex-end;
     border: 1px solid #224C5A;
     border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 32px
 }
+
