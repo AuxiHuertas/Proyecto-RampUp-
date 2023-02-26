@@ -37,41 +37,62 @@ function mensajes() {
 
     if (estadoImagenMaquina === estadoImagenUsuario) {
         console.log("Empate");
+        return "Empate"
     }
     else if (estadoImagenUsuario === 'Lagarto' && estadoImagenMaquina === 'Tijeras' || estadoImagenUsuario === 'Tijeras' && estadoImagenMaquina === 'Lagarto') {
         console.log("Tijeras decapitan a lagarto")
+        return "Tijeras decapitan a lagarto"
     }
     else if (estadoImagenUsuario === 'Papel' && estadoImagenMaquina === 'Tijeras' || estadoImagenUsuario === 'Tijeras' && estadoImagenMaquina === 'Papel') {
         console.log("Tijeras cortan papel")
+        return "Tijeras cortan papel"
     }
     else if (estadoImagenUsuario === 'Spock' && estadoImagenMaquina === 'Papel' || estadoImagenUsuario === 'Papel' && estadoImagenMaquina === 'Spock') {
         console.log("Papel desacredita a Spock")
+        return "Papel desautoriza a Spock"
     }
     else if (estadoImagenUsuario === 'Piedra' && estadoImagenMaquina === 'Papel' || estadoImagenUsuario === 'Papel' && estadoImagenMaquina === 'Piedra') {
         console.log("Papel envuelve a piedra")
+        return "Papel envuelve a piedra"
     }
     else if (estadoImagenUsuario === 'Tijeras' && estadoImagenMaquina === 'Piedra' || estadoImagenUsuario === 'Piedra' && estadoImagenMaquina === 'Tijeras') {
         console.log("Piedra aplasta tijeras")
+        return "Piedra aplasta a tijeras"
     }
     else if (estadoImagenUsuario === 'Lagarto' && estadoImagenMaquina === 'Piedra' || estadoImagenUsuario === 'Piedra' && estadoImagenMaquina === 'Lagarto') {
         console.log("Piedra aplasta a lagarto")
+        return "Piedra aplasta a lagarto"
     }
     else if (estadoImagenUsuario === 'Papel' && estadoImagenMaquina === 'Lagarto' || estadoImagenUsuario === 'Lagarto' && estadoImagenMaquina === 'Papel') {
         console.log("Lagarto devora papel")
+        return "Lagarto devora a papel"
     }
     else if (estadoImagenUsuario === 'Spock' && estadoImagenMaquina === 'Lagarto' || estadoImagenUsuario === 'Lagarto' && estadoImagenMaquina === 'Spock') {
         console.log("Lagarto envenena a Spock")
+        return "Lagarto envenena a Spock"
     }
     else if (estadoImagenUsuario === 'Tijeras' && estadoImagenMaquina === 'Spock' || estadoImagenUsuario === 'Spock' && estadoImagenMaquina === 'Tijeras') {
         console.log("Spock rompe tijeras")
+        return "Spock desintegra tijeras"
     }
     else if (estadoImagenUsuario === 'Piedra' && estadoImagenMaquina === 'Spock' || estadoImagenUsuario === 'Spock' && estadoImagenMaquina === 'Piedra') {
         console.log("Spock vaporiza a piedra")
+        return "Spock vaporiza a Piedra"
     }
     else {
         console.log("No has pulsado correctamente")
+        return "No has pulsado correctamente"
     }
 }
+
+function mensajesNavegador (){
+    const tagMensajes = document.createElement('p');
+    tagMensajes.textContent =`${mensajes()}`;
+    const mensajesContainer = document.getElementById("contenedorMensajes");
+    mensajesContainer.appendChild(tagMensajes)
+}
+
+
 
 function selectOption() {
     //const pc = document.getElementById("imagenOpcionPC")
@@ -86,6 +107,7 @@ function selectOption() {
         spock.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
+        mensajesNavegador ()
 
 
     })
@@ -100,6 +122,7 @@ function selectOption() {
         spock.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
+        mensajesNavegador ()
 
     })
 
@@ -113,6 +136,7 @@ function selectOption() {
         spock.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
+        mensajesNavegador ()
 
     })
     const lagarto = document.getElementById("lagarto")
@@ -125,6 +149,7 @@ function selectOption() {
         spock.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
+        mensajesNavegador ()
 
     })
     const spock = document.getElementById("spock")
@@ -137,6 +162,7 @@ function selectOption() {
         piedra.style.backgroundColor = "#69727984"
         CreateImageMachine()
         mensajes()
+        mensajesNavegador ()
     })
 }
 
