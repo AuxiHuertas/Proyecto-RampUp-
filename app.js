@@ -100,6 +100,8 @@ function mensajesNavegador() {
 }
 
 
+
+
 // Funcion inicial desde donde empieza el juego, contiene el evento, y la llamada a todas las funciones que queremos que ejecute con ese evento. 
 function selectOption() {
     //const pc = document.getElementById("imagenOpcionPC")

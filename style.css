@@ -40,6 +40,11 @@ h2{
     align-content: flex-end;
 
 }
+#machineTurn{
+    height: 70px;
+    width: 70px;
+   
+}
 
 a{
     text-decoration: none;
